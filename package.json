@@ -1,0 +1,39 @@
+{
+  "name": "knex-orm",
+  "version": "0.0.1",
+  "description": "simple orm over knex",
+  "main": "lib/index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jfgodoy/knex-orm.git"
+  },
+  "scripts": {
+    "test": "mocha test"
+  },
+  "keywords": [
+    "knex",
+    "postgres",
+    "postgis",
+    "orm"
+  ],
+  "author": {
+    "name": "Jorge Godoy",
+    "email": "godoy.jf@gmail.com"
+  },
+  "bugs": {
+    "url": "https://github.com/jfgodoy/knex-orm/issues"
+  },
+  "homepage": "https://github.com/jfgodoy/knex-orm",
+  "license": "MIT",
+  "dependencies": {
+    "bluebird": "^2.3.6",
+    "class-extend": "^0.1.1",
+    "knex": "^0.7.3",
+    "knex-postgis": "^0.1.2",
+    "lodash": "^3.0.1"
+  },
+  "devDependencies": {
+    "chai": "^1.9.2",
+    "mocha": "^2.1.0"
+  }
+}
