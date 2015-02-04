@@ -1,6 +1,6 @@
 {
   "name": "knex-orm",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "simple orm over knex",
   "main": "lib/index.js",
   "repository": {
